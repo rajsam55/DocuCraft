@@ -1,0 +1,6 @@
+{
+  "name": "PDF & Image Tools Platform",
+  "description": "A premium, fully functional SaaS platform for merging, splitting, compressing, and converting PDF and image files, complete with user authentication, analytics dashboard, subscription management, and a complete admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
