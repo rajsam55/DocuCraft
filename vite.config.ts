@@ -11,6 +11,13 @@ export default defineConfig(() => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    define : {
+      `process.env.API_KEY` : JSON.strngify(env.GEMINI_API_KEY),
+      `process.env.GEMINI_API_KEY`  : JSON.stringify(env.GEMINI_API_KEY)
+
+
+      
+    }
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
